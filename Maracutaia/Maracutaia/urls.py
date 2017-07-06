@@ -3,7 +3,7 @@ Definition of urls for Maracutaia.
 """
 
 from datetime import datetime
-from django.conf.urls import url
+from django.conf.urls import url, include
 import django.contrib.auth.views
 
 import app.forms
@@ -16,7 +16,8 @@ import app.views
 
 urlpatterns = [
     # Examples:
-    url(r'^$', app.views.home, name='home'),
+    url(r'^$', include('home.urls')),
+    url(r'^home/', include('home.urls')),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
     url(r'^login/$',
