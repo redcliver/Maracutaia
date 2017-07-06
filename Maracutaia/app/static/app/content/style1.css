@@ -1,15 +1,4 @@
-body {
-    background-image: url('../../static/app/img/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-     background-color: #000000;
-    color: #999791;
-}
 
-footer {
-    color:#999791;
-}
 
 .navbar-static-top {
   margin-bottom: 19px;
@@ -17,8 +6,10 @@ footer {
 .mynavbar{
 	border-color: #474746;
 	color: #7b6d3e;
-	background: linear-gradient(to bottom, #444440,#383835 80%,#333330);
-	border-bottom: #66630c 3px solid;
+	background: #082f1a; /* Old Browsers */
+    background: -webkit-linear-gradient(#082f1a, #287049);
+    background: -o-linear-gradient(#082f1a, #287049);
+    background: linear-gradient(#082f1a, #287049); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
 	border-radius: 6px;
 }
 

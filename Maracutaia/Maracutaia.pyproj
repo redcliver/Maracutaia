@@ -80,6 +80,7 @@
     <Folder Include="Maracutaia\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\content\style2.css" />
     <Content Include="app\static\app\img\caixa1.png" />
     <Content Include="app\static\app\img\fundo1.jpg" />
     <Content Include="app\static\app\img\maracutaia_logo.png" />

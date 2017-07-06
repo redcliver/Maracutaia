@@ -1,0 +1,46 @@
+
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+.mynavbar {
+    border-color: #474746;
+    color: #7b6d3e;
+    background: #105b32; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#105b32,#84bd9f); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#105b32,#84bd9f); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#105b32,#84bd9f); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #105b32, #84bd9f); /*Standard*/
+    border-radius: 15px;
+    margin-bottom: 19px;
+}
+
+.myjumbotron {
+    background-color: #000000;
+    background: #7ee2ab; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#7ee2ab,#bdfedc); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#7ee2ab,#bdfedc); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#7ee2ab,#bdfedc); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #7ee2ab, #bdfedc); /*Standard*/
+    min-height: 400px;
+}
+
+.cor{
+	color: #7b6d3e;
+	
+}
+.mybtn{
+	border-color: #000000;
+}
+.width40{
+	width: 40%; 
+}
+.width30{
+	width: 30%;
+}
+.width20{
+	width: 20%;
+}
+.a{
+	color:#bcbcba;
+}
