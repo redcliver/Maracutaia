@@ -18,6 +18,10 @@ urlpatterns = [
     # Examples:
     url(r'^$', include('home.urls')),
     url(r'^home/', include('home.urls')),
+    url(r'^mesas/', include('mesas.urls')),
+    url(r'^pedidos/', include('pedidos.urls')),
+    url(r'^outros/', include('outros.urls')),
+    url(r'^caixa/', include('caixa.urls')),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
     url(r'^login/$',

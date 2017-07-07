@@ -6,11 +6,11 @@
 .mynavbar {
     border-color: #474746;
     color: #7b6d3e;
-    background: #105b32; /* Old Browsers */
-    background: -webkit-linear-gradient(top,#105b32,#84bd9f); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,#105b32,#84bd9f); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,#105b32,#84bd9f); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, #105b32, #84bd9f); /*Standard*/
+    background: #6cc416; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#6cc416,#d1ffa4); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#6cc416,#d1ffa4); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#6cc416,#d1ffa4); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #6cc416, #d1ffa4); /*Standard*/
     border-radius: 15px;
     margin-bottom: 19px;
 }

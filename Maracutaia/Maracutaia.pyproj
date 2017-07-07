@@ -42,6 +42,9 @@
     <Compile Include="caixa\migrations\__init__.py" />
     <Compile Include="caixa\models.py" />
     <Compile Include="caixa\tests.py" />
+    <Compile Include="caixa\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="caixa\views.py" />
     <Compile Include="caixa\__init__.py" />
     <Compile Include="home\admin.py" />
@@ -59,6 +62,30 @@
     <Compile Include="Maracutaia\settings.py" />
     <Compile Include="Maracutaia\urls.py" />
     <Compile Include="Maracutaia\wsgi.py" />
+    <Compile Include="mesas\admin.py" />
+    <Compile Include="mesas\apps.py" />
+    <Compile Include="mesas\migrations\__init__.py" />
+    <Compile Include="mesas\models.py" />
+    <Compile Include="mesas\tests.py" />
+    <Compile Include="mesas\urls.py" />
+    <Compile Include="mesas\views.py" />
+    <Compile Include="mesas\__init__.py" />
+    <Compile Include="outros\admin.py" />
+    <Compile Include="outros\apps.py" />
+    <Compile Include="outros\migrations\__init__.py" />
+    <Compile Include="outros\models.py" />
+    <Compile Include="outros\tests.py" />
+    <Compile Include="outros\urls.py" />
+    <Compile Include="outros\views.py" />
+    <Compile Include="outros\__init__.py" />
+    <Compile Include="pedidos\admin.py" />
+    <Compile Include="pedidos\apps.py" />
+    <Compile Include="pedidos\migrations\__init__.py" />
+    <Compile Include="pedidos\models.py" />
+    <Compile Include="pedidos\tests.py" />
+    <Compile Include="pedidos\urls.py" />
+    <Compile Include="pedidos\views.py" />
+    <Compile Include="pedidos\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -78,17 +105,32 @@
     <Folder Include="home\templates\" />
     <Folder Include="home\templates\home\" />
     <Folder Include="Maracutaia\" />
+    <Folder Include="mesas\" />
+    <Folder Include="mesas\migrations\" />
+    <Folder Include="caixa\templates\" />
+    <Folder Include="mesas\templates\" />
+    <Folder Include="outros\" />
+    <Folder Include="outros\migrations\" />
+    <Folder Include="outros\templates\" />
+    <Folder Include="pedidos\" />
+    <Folder Include="pedidos\migrations\" />
+    <Folder Include="pedidos\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\static\app\content\style2.css" />
-    <Content Include="app\static\app\img\caixa1.png" />
-    <Content Include="app\static\app\img\fundo1.jpg" />
+    <Content Include="app\static\app\content\style7.css" />
+    <Content Include="app\static\app\img\caixa3.png" />
+    <Content Include="app\static\app\img\delivery.png" />
+    <Content Include="app\static\app\img\fundo2.jpg" />
     <Content Include="app\static\app\img\maracutaia_logo.png" />
-    <Content Include="app\static\app\img\mesas1.png" />
-    <Content Include="app\static\app\img\outros1.png" />
-    <Content Include="app\static\app\img\pedidos1.png" />
+    <Content Include="app\static\app\img\outros2.png" />
+    <Content Include="app\static\app\img\pedidos2.png" />
+    <Content Include="caixa\templates\caixa.html" />
     <Content Include="home\templates\base.html" />
     <Content Include="home\templates\home\home.html" />
+    <Content Include="mesas\templates\detalhe.html" />
+    <Content Include="mesas\templates\mesas.html" />
+    <Content Include="outros\templates\outros.html" />
+    <Content Include="pedidos\templates\pedidos.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
