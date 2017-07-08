@@ -12,7 +12,7 @@
 {% load staticfiles %}
     <!-- Bootstrap core CSS -->
     <link rel="icon" href="{% static '/app/img/bigode.ico' %}"/>
-    <link rel="stylesheet" href="{% static '/app/content/style7.css' %}" />
+    <link rel="stylesheet" href="{% static '/app/content/style9.css' %}" />
     <link rel="stylesheet" href="{% static '/app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% static 'app/content/ie10-viewport-bug-workaround.css' %}" />
     <link rel="stylesheet" href="{% static '/app/content/navbar.css' %}" />
@@ -28,7 +28,8 @@
             background-size:cover;
             background-position:center;
             background-color: #ffffff;
-            color: #ffffff;
+            color: #bec4c0;
+            
         }
 
         footer {
@@ -50,6 +51,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="/mesas"><img src="../../static/app/img/mesas2.png" /><center>Mesas</center></a></li>
                         <li><a href="/pedidos"><img src="../../static/app/img/pedidos2.png" /><center>Pedidos</center></a></li>
+                        <li><a href="/entregas"><img src="../../static/app/img/delivery.png" /><center>Entregas</center></a></li>
                         <li><a href="/caixa"><img src="../../static/app/img/caixa3.png" /><center>Caixa</center></a></li>
                         <li><a href="/outros"><img src="../../static/app/img/outros2.png" /><center>Outros</center></a></li>
                     </ul>
@@ -58,9 +60,13 @@
         </nav>
         <h2>{{title}}</h2>
         {% endblock %}
-{% block body %}
 
-{% endblock %}
+        <div class="myjumbotron jumbotron mynavbar">
+            {% block body %}
+        
+
+            {% endblock %}
+        </div>
    
    </div>
         <footer>

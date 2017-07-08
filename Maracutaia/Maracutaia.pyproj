@@ -47,6 +47,16 @@
     </Compile>
     <Compile Include="caixa\views.py" />
     <Compile Include="caixa\__init__.py" />
+    <Compile Include="entregas\admin.py" />
+    <Compile Include="entregas\apps.py" />
+    <Compile Include="entregas\migrations\__init__.py" />
+    <Compile Include="entregas\models.py" />
+    <Compile Include="entregas\tests.py" />
+    <Compile Include="entregas\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="entregas\views.py" />
+    <Compile Include="entregas\__init__.py" />
     <Compile Include="home\admin.py" />
     <Compile Include="home\apps.py" />
     <Compile Include="home\migrations\__init__.py" />
@@ -100,6 +110,9 @@
     <Folder Include="app\templates\app\" />
     <Folder Include="caixa\" />
     <Folder Include="caixa\migrations\" />
+    <Folder Include="entregas\" />
+    <Folder Include="entregas\migrations\" />
+    <Folder Include="entregas\templates\" />
     <Folder Include="home\" />
     <Folder Include="home\migrations\" />
     <Folder Include="home\templates\" />
@@ -117,7 +130,7 @@
     <Folder Include="pedidos\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\static\app\content\style7.css" />
+    <Content Include="app\static\app\content\style9.css" />
     <Content Include="app\static\app\img\caixa3.png" />
     <Content Include="app\static\app\img\delivery.png" />
     <Content Include="app\static\app\img\fundo2.jpg" />
@@ -125,11 +138,14 @@
     <Content Include="app\static\app\img\outros2.png" />
     <Content Include="app\static\app\img\pedidos2.png" />
     <Content Include="caixa\templates\caixa.html" />
+    <Content Include="entregas\templates\entregas.html" />
     <Content Include="home\templates\base.html" />
     <Content Include="home\templates\home\home.html" />
     <Content Include="mesas\templates\detalhe.html" />
     <Content Include="mesas\templates\mesas.html" />
+    <Content Include="outros\templates\addproduto.html" />
     <Content Include="outros\templates\outros.html" />
+    <Content Include="pedidos\templates\addpedidos.html" />
     <Content Include="pedidos\templates\pedidos.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

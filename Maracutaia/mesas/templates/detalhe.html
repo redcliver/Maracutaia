@@ -1,7 +1,18 @@
 ﻿{% extends 'base.html' %}
 {% block body %}
-    <div class="myjumbotron jumbotron">
-        <h2>Numero: </h2>
-        <h2>{{numero}}</h2>
-    </div>
+<h3>N°: {{numero}}</h3>
+<table>
+    <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Valor Uni</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+        <td>$100</td>
+    </tr>
+</table>
 {% endblock %}

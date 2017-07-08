@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'home',
     'mesas',
     'outros',
+    'entregas',
     'pedidos',
     'caixa',
     # Add your apps here to enable them
