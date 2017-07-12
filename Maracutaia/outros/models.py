@@ -14,3 +14,9 @@ class ProdutoForm(forms.ModelForm):
     class Meta:
         model = Produto;
         fields = ['nome', 'preco', 'descricao']
+
+class Estado(models.Model):
+    estado = models.CharField(max_length=100)
+    
+    def __str__(self):
+        return self.estado

@@ -10,13 +10,13 @@ import app.forms
 import app.views
 
 # Uncomment the next lines to enable the admin:
-# from django.conf.urls import include
-# from django.contrib import admin
-# admin.autodiscover()
+from django.conf.urls import include
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = [
     # Examples:
-    url(r'^$', include('home.urls')),
+    url(r'^', include('home.urls')),
     url(r'^home/', include('home.urls')),
     url(r'^mesas/', include('mesas.urls')),
     url(r'^pedidos/', include('pedidos.urls')),
@@ -45,8 +45,8 @@ urlpatterns = [
         name='logout'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
 ]

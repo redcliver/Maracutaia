@@ -1,0 +1,14 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+    <form method="get">
+        Mesas: 
+        <select>
+            {% for mesa in mesas %}
+            <option value={{mesa}}>{{mesa}}</option>
+            {% endfor %}
+        </select>
+        <br />
+        <br />
+        <button type="submit">Fechar Mesa</button>
+    </form>
+{% endblock %}

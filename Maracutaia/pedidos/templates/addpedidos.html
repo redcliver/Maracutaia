@@ -1,35 +1,6 @@
 ﻿{% extends 'base.html' %}
 {% block body %}
-    <h3>Mesa:{{numero}}</h3>
-    <form method="get">
-        <table>
-            <tr>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Valor Uni</th>
-                <th>Total</th>
-                <th> </th>
-            </tr>
-            <tr>
-                <td>teste</td>
-                <td>teste</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>
-                    <select>
-                        {% for produto in produtos%}
-                        <option value={{produto}}>{{produto}}</option>
-                        {% endfor %}
-                        </select>
-                </td>
-                <td><input type="number" name="qtd" /></td>
-                <td> </td>
-                <td> </td>
-                <td><button type="submit">Adicionar</button></td>
-            </tr>
-        </table>
-    </form>
+<div class="myjumbotron jumbotron col-xs-6">
+  {{mesa}}
+</div>
 {% endblock %}

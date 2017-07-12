@@ -9,7 +9,11 @@
         <th>Total</th>
     </tr>
     <tr>
-        <td>Peter</td>
+    {% for comanda in comanda %}
+        {% for pedido in comanda %}
+        <td>{{ pedido }}</td>
+        {% endfor %}
+        {% endfor %}  
         <td>Griffin</td>
         <td>$100</td>
         <td>$100</td>

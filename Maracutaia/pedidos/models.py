@@ -9,8 +9,3 @@ class Item(models.Model):
 
     def __str__(self):
         return self.produto.nome
-
-class Comanda(models.Model):
-    mesa = models.IntegerField()
-    item = models.ManyToManyField(Item)
-    total = models.DecimalField(max_digits=5, decimal_places=2, default="0,00")
