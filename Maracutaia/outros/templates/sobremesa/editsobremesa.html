@@ -1,0 +1,39 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+<form method="POST">
+    {% csrf_token %}
+    <div class=" row">
+        <div class="col-md-6">
+            Produto:<br />
+            <input autofocus class="form-control" name="sobremesa" type="text" />
+            <br />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-default">Buscar</button>
+</form>
+<form method="GET" action="/outros/editsobremesa1">
+
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for sobremesa in sobremesas %}
+                <tr>
+                    <td>{{sobremesa.id}}</td>
+                    <td>{{sobremesa.nome}}</td>
+                    <td>{{sobremesa.preco}}</td>
+                    <td><button class="btn btn-default" value="{{sobremesa.id}}" name="sobremesa_id" type="submit">Editar</button></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</form>
+{% endblock %}

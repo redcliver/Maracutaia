@@ -4,7 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>Maracutaia</Name>
     <RootNamespace>Maracutaia</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -128,12 +128,19 @@
     <Folder Include="outros\" />
     <Folder Include="outros\migrations\" />
     <Folder Include="outros\templates\" />
+    <Folder Include="outros\templates\espetos\" />
+    <Folder Include="outros\templates\bebidas\" />
+    <Folder Include="outros\templates\acompanhamento\" />
+    <Folder Include="outros\templates\sobremesa\" />
+    <Folder Include="outros\templates\porcoes\" />
     <Folder Include="pedidos\" />
     <Folder Include="pedidos\migrations\" />
     <Folder Include="pedidos\templates\" />
+    <Folder Include="pedidos\templates\espetos\" />
+    <Folder Include="pedidos\templates\bebidas\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\static\app\content\style9.css" />
+    <Content Include="app\static\app\content\style1.css" />
     <Content Include="app\static\app\img\caixa3.png" />
     <Content Include="app\static\app\img\delivery.png" />
     <Content Include="app\static\app\img\fundo2.jpg" />
@@ -147,11 +154,48 @@
     <Content Include="mesas\templates\abrir.html" />
     <Content Include="mesas\templates\detalhe.html" />
     <Content Include="mesas\templates\mesas.html" />
-    <Content Include="outros\templates\addproduto.html" />
+    <Content Include="outros\templates\acompanhamento\addacomp.html" />
+    <Content Include="outros\templates\acompanhamento\editacomp.html" />
+    <Content Include="outros\templates\acompanhamento\editacomp1.html" />
+    <Content Include="outros\templates\bebidas\addbebida.html" />
+    <Content Include="outros\templates\bebidas\editbebida.html" />
+    <Content Include="outros\templates\bebidas\editbebida1.html" />
+    <Content Include="outros\templates\espetos\addespeto.html" />
+    <Content Include="outros\templates\espetos\editespeto.html" />
+    <Content Include="outros\templates\espetos\editespetos1.html" />
     <Content Include="outros\templates\outros.html" />
+    <Content Include="outros\templates\porcoes\addporcao.html" />
+    <Content Include="outros\templates\porcoes\editporcao.html" />
+    <Content Include="outros\templates\porcoes\editporcao1.html" />
+    <Content Include="outros\templates\sobremesa\addsobremesa.html" />
+    <Content Include="outros\templates\sobremesa\editsobremesa.html" />
+    <Content Include="outros\templates\sobremesa\editsobremesa1.html" />
+    <Content Include="pedidos\templates\abrir_mesa.html" />
+    <Content Include="pedidos\templates\acompanhamentos.html" />
     <Content Include="pedidos\templates\addpedidos.html" />
+    <Content Include="pedidos\templates\bebidas.html" />
+    <Content Include="pedidos\templates\bebidas\caipirinha.html" />
+    <Content Include="pedidos\templates\bebidas\caipirinha_mix.html" />
+    <Content Include="pedidos\templates\bebidas\cerveja.html" />
+    <Content Include="pedidos\templates\bebidas\chopp.html" />
+    <Content Include="pedidos\templates\bebidas\coktail.html" />
+    <Content Include="pedidos\templates\bebidas\dose.html" />
+    <Content Include="pedidos\templates\bebidas\suco.html" />
+    <Content Include="pedidos\templates\espetos.html" />
+    <Content Include="pedidos\templates\abrir_mesa1.html" />
+    <Content Include="pedidos\templates\espetos\bovinos.html" />
+    <Content Include="pedidos\templates\espetos\carneiro.html" />
+    <Content Include="pedidos\templates\espetos\frango.html" />
+    <Content Include="pedidos\templates\espetos\peixe.html" />
+    <Content Include="pedidos\templates\espetos\queijo.html" />
+    <Content Include="pedidos\templates\espetos\suino.html" />
     <Content Include="pedidos\templates\mesa.html" />
     <Content Include="pedidos\templates\pedidos.html" />
+    <Content Include="pedidos\templates\procoesfrias.html" />
+    <Content Include="pedidos\templates\procoesquentes.html" />
+    <Content Include="pedidos\templates\sanduiches.html" />
+    <Content Include="pedidos\templates\seleciona_item.html" />
+    <Content Include="pedidos\templates\sobremesas.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -189,10 +233,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env\">
-      <Id>env</Id>
+    <Interpreter Include="env1\">
+      <Id>env1</Id>
       <Version>3.6</Version>
-      <Description>env (Python 3.6 (64-bit))</Description>
+      <Description>env1 (Python 3.6 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

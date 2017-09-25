@@ -1,0 +1,29 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Pedido</th>
+                <th>Qnt</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for espetos in espetos1 %}
+            <tr>
+                <td>{{espetos.espeto_item.id}}</td>
+                <td>{{espetos.espeto_item.nome}}</td>
+                <td>{{espetos.qnt}}</td>
+                <td>R$ {{espetos.total}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    <form>
+        <br/>
+        <input type="hidden" name="comanda_id" value="{{comanda_id.id}}" />
+        <button formaction="/pedidos/abrir_mesa/">Outro item</button>
+        <button autofocus formaction="/pedidos/metodo/" class="style1">Finalizar</button>
+    </form>
+{% endblock %}

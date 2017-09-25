@@ -1,0 +1,15 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+    <form method="get">
+        <input type="hidden" name="mesa" value="{{mesa}}" />
+        <input type="hidden" name="comanda_id" value="{{comanda_id}}" />
+        <button formaction="/pedidos/bovino">Bovino</button><br />
+        <button formaction="/pedidos/frango">Frango</button><br />
+        <button formaction="/pedidos/suino">Suino</button><br />
+        <button formaction="/pedidos/carneiro">Carneiro</button><br />
+        <button formaction="/pedidos/peixe">Peixe</button><br />
+        <button formaction="/pedidos/queijo">Queijo</button><br />
+        <br />
+        <br />
+    </form>
+{% endblock %}

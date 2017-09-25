@@ -12,7 +12,7 @@
 {% load staticfiles %}
     <!-- Bootstrap core CSS -->
     <link rel="icon" href="{% static '/app/img/bigode.ico' %}"/>
-    <link rel="stylesheet" href="{% static '/app/content/style9.css' %}" />
+    <link rel="stylesheet" href="{% static '/app/content/style1.css' %}" />
     <link rel="stylesheet" href="{% static '/app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% static 'app/content/ie10-viewport-bug-workaround.css' %}" />
     <link rel="stylesheet" href="{% static '/app/content/navbar.css' %}" />
@@ -28,18 +28,19 @@
             background-size:cover;
             background-position:center;
             background-color: #ffffff;
-            color: #bec4c0;
-            
+            color: #bec4c0;  
         }
-
+        button{
+            color:#98dd54;
+            width: 140px;
+        }
         footer {
             color:#ffffff;
         }
     </style>
 
 </head>
-<body link="#7b6d3e">
-
+<body>
     <div class="container">
     <!-- Static navbar -->
         <nav class="mynavbar navbar-default navbar-static-top">
@@ -72,9 +73,10 @@
         <footer>
             <center>Maracutaia Application &copy; 2017</center>
         </footer>
+{% block scripts %}
     <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
     <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
     <script src="{% static 'app/scripts/respond.js' %}"></script>
-{% block scripts %}{% endblock %}
+{% endblock %}
 </body>
 </html>

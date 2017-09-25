@@ -1,0 +1,20 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+    <form method="GET" action="/pedidos/abrir_mesa1/">
+        <input type="hidden" name="mesa" value="{{mesa}}" />
+        <input type="hidden" name="comanda_id" value="{{comanda_id}}" />
+        <button name="espeto" value="1">Contra F.</button><br />
+        <button name="espeto" value="2">Medalhao</button><br />
+        <button name="espeto" value="3">Costela</button><br />
+        <button name="espeto" value="4">Cupim Limao</button><br />
+        <button name="espeto" value="5">Cupim Sol</button><br />
+        <button name="espeto" value="6">Cupim Most.</button><br />
+        <button name="espeto" value="7">Picanha</button><br />
+        <button name="espeto" value="8">Picanha Alho</button><br />
+        <button name="espeto" value="9">Kebab</button><br />
+        <button name="espeto" value="10">Kafta</button><br />
+        <button name="espeto" value="11">Kafta Queijo</button><br />
+        <br />
+        <br />
+    </form>
+{% endblock %}

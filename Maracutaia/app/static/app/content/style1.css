@@ -1,0 +1,60 @@
+.mynavbar {
+    border-color: #474746;
+    color: #7b6d3e;
+    background: #8a8888; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#8a8888,#3b3b3b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#8a8888,#3b3b3b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#8a8888,#3b3b3b); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #8a8888, #3b3b3b); /*Standard*/
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #82c541;
+    margin-bottom: 19px;
+}
+
+.myjumbotron {
+    background-color: #000000;
+    background: #8a8888; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#8a8888,#3b3b3b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#8a8888,#3b3b3b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#8a8888,#3b3b3b); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #8a8888, #3b3b3b); /*Standard*/
+    min-height: 400px;
+    color: #7b6d3e;
+}
+
+.cor{
+	color: #7b6d3e;
+	
+}
+.mybtn{
+	border-color: #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #98dd54;
+    background-color: #606060;
+    border-radius: 4px;
+    
+}
+
+    button:hover {
+        background-color: #afef70; /* Green */
+        color: #606060;
+    }
+estilo {
+    color: #98dd54;
+}

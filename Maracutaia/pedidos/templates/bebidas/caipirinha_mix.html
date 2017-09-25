@@ -1,0 +1,11 @@
+﻿{% extends 'base.html' %}
+{% block body %}
+    <form method="get">
+        <input type="hidden" name="mesa" value="{{mesa}}" />
+        <input type="hidden" name="bebida" value="{{bebida}}" />
+        <button name="mix" value="1">Cachaça</button><br />
+        <button name="mix" value="2">Vodka</button><br />
+        <br />
+        <br />
+    </form>
+{% endblock %}
