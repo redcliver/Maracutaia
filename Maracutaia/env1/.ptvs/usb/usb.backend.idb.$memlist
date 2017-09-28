@@ -1,0 +1,8 @@
+__author__
+__all__
+libusb1
+libusb0
+IBackend
+openusb
+_not_implemented
+_objfinalizer

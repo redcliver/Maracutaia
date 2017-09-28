@@ -18,12 +18,21 @@
                 <td>R$ {{espetos.total}}</td>
             </tr>
             {% endfor %}
+            {% for acompanhamentos in acomp1 %}
+            <tr>
+                <td>{{acompanhamentos.acomp_item.id}}</td>
+                <td>{{acompanhamentos.acomp_item.nome}}</td>
+                <td>{{acompanhamentos.qnt}}</td>
+                <td>R$ {{acompanhamentos.total}}</td>
+            </tr>
+            {% endfor %}
         </tbody>
         </table>
+    <h2>Total: R$ {{comanda_id.total}}</h2>
     <form>
         <br/>
         <input type="hidden" name="comanda_id" value="{{comanda_id.id}}" />
-        <button formaction="/pedidos/abrir_mesa/">Outro item</button>
+        <button formaction="/pedidos/additem/">Outro item</button>
         <button autofocus formaction="/pedidos/metodo/" class="style1">Finalizar</button>
     </form>
 {% endblock %}

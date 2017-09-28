@@ -1,0 +1,6 @@
+sys
+AutoFinalizedObject
+_AutoFinalizedObjectBase
+__all__
+_do_finalize_object_ref
+weakref

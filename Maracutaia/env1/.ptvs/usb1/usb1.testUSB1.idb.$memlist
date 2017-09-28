@@ -1,0 +1,16 @@
+sys
+other_buff
+USBTransferTests
+pointer
+buffer_base
+buff
+itertools
+bytearray_buff
+usb1
+buff_len
+select
+PollDetector
+threading
+libusb1
+unittest
+USBContext

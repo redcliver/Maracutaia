@@ -15,4 +15,5 @@ urlpatterns = [
     url(r'^peixe/$', views.peixe),
     url(r'^queijo/$', views.queijo),
     url(r'^selecionaMesa/$', views.selecionaMesa),
+    url(r'^additem/$', views.additem),
     ]
